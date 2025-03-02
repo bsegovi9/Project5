@@ -6,3 +6,4 @@
   <NavMenu />
   <RouterView />
 </template>
+
