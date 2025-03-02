@@ -1,4 +1,5 @@
 import router from '../router'
+
 import { firebaseApp } from './useFirebase'
 import { getAuth, signInWithEmailAndPassword, signOut } from 'firebase/auth'
 import { useAuth as firebaseAuth } from '@vueuse/firebase/useAuth'
@@ -19,4 +20,5 @@ export const useAuth = () => {
     }
 
     return {isAuthenticated, user, login, logout}
+
 }
